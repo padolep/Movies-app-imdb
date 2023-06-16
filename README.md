@@ -1,4 +1,8 @@
-# MovieApp
+# MovieApp 
+
+# Demo Linl : https://pravinmovieapp.netlify.app 
+
+# Git Repo : https://github.com/padolep/Movies-app-imdb.git
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.2.7.
 
@@ -25,3 +29,24 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+## Note 
+ Api Limitation 
+ api fetch only 10 record one time 
+ implement pagination based 10 movies per page  
+ After search its showing movie list 
+ enter movies name in search bar its min  length 3 
+
+
+ Module:
+ Movies Module 
+ having 2 Components 1)discover-movies,  2) movies-detail 
+Creat Service for api integration
+
+discover-movies:
+shows all the movie listing fetch from "omdb" api. 
+
+movies-detail :
+view the detail of selected movie with all its Detail like  title, actor ,  year,  imdb rating.
